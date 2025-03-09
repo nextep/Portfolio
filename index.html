@@ -3,7 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Elias Ibrahim - Security Minded Professional with 25+ years of experience in digital transformation, security initiatives, and cross-functional leadership.">
+        <meta name="keywords" content="Security Professional, CISSP-CCSP, Digital Transformation, Security Design, Project Management, Cross-Functional Leadership">
+        
+        <!-- Open Graph / Social Media Meta Tags -->
+        <meta property="og:title" content="Elias Ibrahim - Security Professional Portfolio">
+        <meta property="og:description" content="Security Minded Professional with 25+ years of experience in digital transformation and security initiatives.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="assets/img/profile.png">
+        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+        
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
         
@@ -27,6 +40,9 @@
         <title>Elias's Professional Portfolio</title>
     </head>
     <body>
+        <!-- Loading Indicator -->
+        <div class="loading" id="loading"></div>
+        
 	    <!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4W8RZKF"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -108,15 +124,14 @@
 
                         <div class="home__img">
                             <svg class="home__blob" viewBox="0 0 200 187">
-                                <image class="home__blob-img" x="14" y="16" href="assets/img/profile.png" />
-                                </g>
+                                <image class="home__blob-img" x="14" y="16" href="assets/img/profile.png" loading="lazy" />
                             </svg>
                         </div>
 
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'm Elias</h1>
                             <h3 class="home__subtitle">Security Minded Professional</h3>
-                            <p class="home__description">I am fluent in English and French as well as speak Arabic. Having lived, travelled and worked across the globe, I have a solid track record of international and national level experience with deep expertise across many security domains mainly specializing in cross-functional collaboration and Security Design.</p>
+                            <p class="home__description">Security-focused professional with 25+ years of experience leading security initiatives, digital transformations, technical sales, and customer success engagements. Adept at aligning security strategies with business goals, providing PreSales technical expertise, driving cybersecurity governance, and leading security teams across multiple domains.</p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a>
@@ -140,12 +155,14 @@
                 <span class="section__subtitle">My introduction</span>
 
                 <div class="about__container container grid">
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                    <img src="assets/img/about.jpg" alt="About Me" class="about__img" loading="lazy">
 
                     <div class="about__data">
-                        <p class="about__description">Security minded and customer focused professional with extensive experience leading teams and projects on security initiatives and digital transformations over the past 25 years. Curious and a perpetual learner, my passion for hacking and protecting society started after getting the Ping of Death during the dial-up days and while I was a network admin.</p>
-                        <p class="about__description">I am an exceptional cross-functional leader with excellent communication, analysis, presentation, people, and project management skills. I like big problems and actively seek complex challenges to leverage my creative problem-solving skills. On my free time I build systems, solutions and participate in Bug Bounty to keep improving my craft and skillset.</p>
+                        <p class="about__description">A problem-solver with strong cross-functional leadership, mentoring capabilities, and a passion for innovation in security. Proven ability to bridge business and technology to drive impactful solutions across various domains.</p>
+                        
+                        <p class="about__description">Hands-on experience in security architecture, risk management, compliance, SIEM (Insider Threat), vulnerability assessment, penetration testing, and advanced cybersecurity solutions. Expert in Security Architecture & Engineering, Threat Intelligence & Incident Response, Governance, Risk, and Compliance (GRC), and Security Operations Center (SOC) Leadership.</p>
 
+                        <p class="about__description">Strong foundation in Security Operations with practical experience implementing SIEM solutions. Skilled in evaluating and integrating security tools including SOAR and XDR platforms. Working knowledge of modern security paradigms including Cloud Security, DevSecOps, and Zero Trust architectures, with hands-on experience in Identity & Access Management solutions.</p>
 
                         <div class="about__info">
                             <div>
@@ -165,7 +182,6 @@
                         </div>
 
                         <div class="about__buttons">
-                            <!--==================== Change your CV ====================-->
                             <a download="" href="assets/pdf/Elias-Cv.pdf" class="button button--flex">
                                 Download CV <i class="uil uil-download-alt button__icon"></i>
                             </a>
@@ -176,807 +192,259 @@
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
-                <h2 class="section__title">Organizational Skills</h2>
-                <span class="section__subtitle">Team focused with a "Get it done" attitude</span>
+                <h2 class="section__title">Professional Expertise</h2>
+                <span class="section__subtitle">Comprehensive Security & Technology Leadership</span>
 
                 <div class="skills__container container grid">
-                    <div>
-                        <!--=============== SKILLS 1 ===============-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-brain skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Soft Skills</h1>
-                                    <span class="skills__subtitle">More than 25 years</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
-                            </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Communication</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Time management</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Self Starter</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Adaptability</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Teamwork</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Problem-solving</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Leadership</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Critical Thinking</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Coaching</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Mentoring</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Mindfulness</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Empathy</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--=============== SKILLS 2 ===============-->
-                    <div class="skills__content skills__close">
+                    <!-- Security Architecture & Engineering -->
+                    <div class="skills__content">
                         <div class="skills__header">
-                            <i class="uil uil-briefcase skills__icon"></i>
-
+                            <i class="uil uil-shield-check skills__icon"></i>
                             <div>
-                                <h1 class="skills__title">Business Skills </h1>
-                                <span class="skills__subtitle">More than 25 years</span>
+                                <h1 class="skills__title">Security Architecture & Engineering</h1>
+                                <span class="skills__subtitle">Enterprise Security Design</span>
                             </div>
-
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
-
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h2 class="skills__name">Digital Transformation</h2>
-                                    <span class="skills__number"></span>
+                                    <h3 class="skills__name">Cloud Security Architecture (AWS, Azure, GCP)</h3>
+                                    <span class="skills__number">95%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
+                                    <span class="skills__percentage skills__cloud"></span>
                                 </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h2 class="skills__name">Corporate Initiatives</h2>
-                                    <span class="skills__number"></span>
+                                    <h3 class="skills__name">Zero Trust Architecture</h3>
+                                    <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
+                                    <span class="skills__percentage skills__zerotrust"></span>
                                 </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h2 class="skills__name">Strategic Projects</h2>
-                                    <span class="skills__number"></span>
+                                    <h3 class="skills__name">Security Controls Implementation</h3>
+                                    <span class="skills__number">95%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
+                                    <span class="skills__percentage skills__controls"></span>
                                 </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h2 class="skills__name">Value Realization</h2>
-                                    <span class="skills__number"></span>
+                                    <h3 class="skills__name">IAM & PAM Solutions</h3>
+                                    <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Planning and Integration</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Change Management</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Stakeholder Communication</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Cross-Functional Leadership</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Performance Monitoring</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Reporting and KPIs</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Process Improvement</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Project Management</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Security Posture Improvement</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Executive Communication</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Feedback Executive Summary</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">PreSales RFI and RFP</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Professional Services</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Customer Facing</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Customer Service</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Customer Support</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Technical Support</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Customer Success</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Business Analysis</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Technical Business Analysis</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">Quality Assurance</h2>
-                                    <span class="skills__number"></span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
+                                    <span class="skills__percentage skills__iam"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
-                    <div>
-                        <!--=============== SKILLS 3 ===============-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-archway skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Frameworks</h1>
-                                    <span class="skills__subtitle">More than 20 years</span>
-                                </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
+                    <!-- Security Operations -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-operations skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Security Operations</h1>
+                                <span class="skills__subtitle">Threat Detection & Response</span>
                             </div>
-
-                            <div class="skills__list grid">
-				 <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Agile</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-				 <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Waterfall</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-
-				 <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">TOGAF</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-
-				 <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">PMBOK</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">NIST</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">CIS</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">ITSG</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">OWASP</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">ISO</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">GPDR</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">HIPAA</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">PCI-DSS</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">SA&A</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">MITRE</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">CAPE</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">SAFE</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">ITIL</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">SSDLC</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">STRIDE</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">PASTA</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">ICS</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
-                    </div>
-                    <div>
-                        <!--=============== SKILLS 4 ===============-->
-                        <div class="skills__content skills__close">
-                            <div class="skills__header">
-                                <i class="uil uil-swatchbook skills__icon"></i>
-
-                                <div>
-                                    <h1 class="skills__title">Security Domains</h1>
-                                    <span class="skills__subtitle">More than 15 years</span>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SIEM/SOAR Implementation</h3>
+                                    <span class="skills__number">95%</span>
                                 </div>
-
-                                <i class="uil uil-angle-down skills__arrow"></i>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__siem"></span>
+                                </div>
                             </div>
-
-                            <div class="skills__list grid">
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Operations</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Threat Hunting & Intelligence</h3>
+                                    <span class="skills__number">90%</span>
                                 </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Engineering</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__threat"></span>
                                 </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Assessment & Testing</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Incident Response & Forensics</h3>
+                                    <span class="skills__number">85%</span>
                                 </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Data Security</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__incident"></span>
                                 </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Network Security</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Security Automation & Orchestration</h3>
+                                    <span class="skills__number">90%</span>
                                 </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Information Security</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Architecture</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Business Continuity</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Physical Security</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Cloud Security</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Awareness</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Identity and Access Management</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Controls</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">System  Security</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Risk Assessments</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Design</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Vulnerability Assessment</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Bug Bounty</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Penetration Testing</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Security Program Maturity</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Secure Coding Practices</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h2 class="skills__name">Code Review</h2>
-                                        <span class="skills__number"></span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__automation"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Governance & Compliance -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-file-check-alt skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Governance & Compliance</h1>
+                                <span class="skills__subtitle">Risk & Compliance Management</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Security Frameworks (NIST, ISO 27001)</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__frameworks"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Risk Assessment & Management</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__risk"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Security Program Development</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__program"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Technical PreSales & Solution Design</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__presales"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- IT Operations & Service Management -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">IT Operations & Service Management</h1>
+                                <span class="skills__subtitle">Enterprise IT & Business Solutions</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Technical Business Analysis & COTS Implementation</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__business"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Network & Systems Administration</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__network"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Service Desk & Technical Support Leadership</h3>
+                                    <span class="skills__number">95%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__service"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ITIL & Service Management</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__itil"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Application Security & AI -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-circuit skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Application Security & AI</h1>
+                                <span class="skills__subtitle">Advanced Security Analysis & AI Development</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Binary Analysis & Reverse Engineering</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__binary"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Assembly & Buffer Overflow Analysis</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__assembly"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">AI/ML Security & Malware Detection</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__malware"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">LLMs/RAG & AI Development</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__llm"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -2422,8 +1890,7 @@
                     <div class="qualification__sections">
                         <!--=============== QUALIFICATION CONTENT 1 ===============-->
                         <div class="qualification__content qualification__active" data-content id="education">
-
-                            <!--=============== QUALIFICATION 3 ===============-->
+                            <!--=============== QUALIFICATION 1 - MSc Cybersecurity (2024-Present) ===============-->
                             <div class="qualification__data">
                                 <div>
                                     <h3 class="qualification__title">Master of Science - Cybersecurity</h3>
@@ -2433,167 +1900,118 @@
                                         2024 - Present
                                     </div>
                                 </div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 2 ===============-->
+                            <!--=============== QUALIFICATION 2 - CCSP (2023) ===============-->
                             <div class="qualification__data">
                                 <div></div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
-
                                 <div>
-                                    <h3 class="qualification__title">High School</h3>
-                                    <span class="qualification__subtitle">Ottawa - Andrée Laurendeau</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        1992 - 1994
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--=============== QUALIFICATION 3 ===============-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Management Information Systems</h3>
-                                    <span class="qualification__subtitle">Ottawa - Collège La Cité</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        1994 - 1997
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <!--=============== QUALIFICATION 4 ===============-->
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div class="qualification__time">
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Networking Technology - Microsoft Certified Systems Engineer (MCSE)</h3>
-                                    <span class="qualification__subtitle">Ottawa - Praxis Training Institute</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        1998
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--=============== QUALIFICATION 5 ===============-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">ITIL v2</h3>
-                                    <span class="qualification__subtitle">Ottawa - Job Requirement</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2007
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <!--=============== QUALIFICATION 6 ===============-->
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Certified Information Systems Security Professional (CISSP)</h3>
+                                    <h3 class="qualification__title">Certified Cloud Security Professional (CCSP)</h3>
                                     <span class="qualification__subtitle">Ottawa - Self</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2016 - Active
+                                        2023 - Active
                                     </div>
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 7 ===============-->
+                            <!--=============== QUALIFICATION 3 - Google Cybersecurity (2023) ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">Unix badge</h3>
+                                    <h3 class="qualification__title">Google Cybersecurity Certificate</h3>
+                                    <span class="qualification__subtitle">Ottawa - Coursera</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--=============== QUALIFICATION 4 - ICS Pentesting (2023) ===============-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Practical Industrial Control System Penetration Testing 2024</h3>
+                                    <span class="qualification__subtitle">Ottawa - UDemy</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--=============== QUALIFICATION 5 - PCAP Badge (2023) ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">PCAP Badge</h3>
                                     <span class="qualification__subtitle">Ottawa - PentesterLabs</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2019
+                                        2023
                                     </div>
                                 </div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 8 ===============-->
+                            <!--=============== QUALIFICATION 6 - GitHub Actions (2023) ===============-->
                             <div class="qualification__data">
                                 <div></div>
-
-                                <div class="qualification__time">
+                                <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
-
                                 <div>
-                                    <h3 class="qualification__title">Microsoft Certified: Azure Fundamentals</h3>
-                                    <span class="qualification__subtitle">Ottawa - Self</span>
+                                    <h3 class="qualification__title">GitHub Actions for CI/CD</h3>
+                                    <span class="qualification__subtitle">Ottawa - LinkedIn Learning</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2020
+                                        2023
                                     </div>
                                 </div>
                             </div>
 
-
-                            <!--=============== QUALIFICATION 9 ===============-->
+                            <!--=============== QUALIFICATION 7 - SnowFlake (2022) ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">AWS Certified Cloud Practitioner</h3>
-                                    <span class="qualification__subtitle">Ottawa - Job</span>
+                                    <h3 class="qualification__title">SnowFlake Data Applications, Engineering, Lake, Sharing and Warehouse Badges</h3>
+                                    <span class="qualification__subtitle">Ottawa - SnowFlake U</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2020
+                                        2022
                                     </div>
                                 </div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 10 ===============-->
+                            <!--=============== QUALIFICATION 8 - Secure Payments (2022) ===============-->
                             <div class="qualification__data">
                                 <div></div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
-
                                 <div>
                                     <h3 class="qualification__title">Secure Payments and PCI</h3>
                                     <span class="qualification__subtitle">Ottawa - LinkedIn Learning</span>
@@ -2604,133 +2022,136 @@
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 11 ===============-->
+                            <!--=============== QUALIFICATION 9 - Azure & AWS (2020) ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">SnowFlake Data Applications, Engineering, Lake, Sharing and Warehouse Badges</h3>
-                                    <span class="qualification__subtitle">Ottawa - SnowFlake U</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2022
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-
-                            <!--=============== QUALIFICATION 12 ===============-->
-                            <div class="qualification__data">
-                                <div></div>
-
-                                <div class="qualification__time">
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">API Penetration Testing</h3>
-                                    <span class="qualification__subtitle">Ottawa - APISec University</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2023
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--=============== QUALIFICATION 13 ===============-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Certified Cloud Security Professional (CCSP)</h3>
+                                    <h3 class="qualification__title">Microsoft Certified: Azure Fundamentals</h3>
                                     <span class="qualification__subtitle">Ottawa - Self</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2023 - Active
+                                        2020
                                     </div>
                                 </div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 14 ===============-->
                             <div class="qualification__data">
                                 <div></div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
-
                                 <div>
-                                    <h3 class="qualification__title">GitHub Actions for CI/CD</h3>
-                                    <span class="qualification__subtitle">
-                                        Ottawa - LinkedIn logo
-                                        Learning
-                                    </span>
+                                    <h3 class="qualification__title">AWS Certified Cloud Practitioner</h3>
+                                    <span class="qualification__subtitle">Ottawa - Job</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2023
+                                        2020
                                     </div>
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 15 ===============-->
+                            <!--=============== QUALIFICATION 10 - Unix Badge (2019) ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">PCAP Badge</h3>
+                                    <h3 class="qualification__title">Unix badge</h3>
                                     <span class="qualification__subtitle">Ottawa - PentesterLabs</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2023
+                                        2019
                                     </div>
                                 </div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
                             </div>
 
-                            <!--=============== QUALIFICATION 16 ===============-->
+                            <!--=============== QUALIFICATION 11 - CISSP (2016) ===============-->
                             <div class="qualification__data">
                                 <div></div>
-
-                                <div class="qualification__time">
+                                <div>
                                     <span class="qualification__rounder"></span>
                                     <span class="qualification__line"></span>
                                 </div>
-
                                 <div>
-                                    <h3 class="qualification__title">Practical Industrial Control System Penetration Testing 2024</h3>
-                                    <span class="qualification__subtitle">Ottawa - UDemy</span>
+                                    <h3 class="qualification__title">Certified Information Systems Security Professional (CISSP)</h3>
+                                    <span class="qualification__subtitle">Ottawa - Self</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2023
+                                        2016 - Active
                                     </div>
                                 </div>
                             </div>
-                            <!--=============== QUALIFICATION 17 ===============-->
+
+                            <!--=============== QUALIFICATION 12 - ITIL (2007) ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">Google Cybersecurity Certificate</h3>
-                                    <span class="qualification__subtitle">Ottawa - Coursera</span>
+                                    <h3 class="qualification__title">ITIL v2</h3>
+                                    <span class="qualification__subtitle">Ottawa - Job Requirement</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2023
+                                        2007
                                     </div>
                                 </div>
-
                                 <div>
                                     <span class="qualification__rounder"></span>
-                                    <!-- <span class="qualification__line"></span> -->
+                                    <span class="qualification__line"></span>
                                 </div>
                             </div>
 
+                            <!--=============== QUALIFICATION 13 - MCSE (1998) ===============-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Networking Technology - Microsoft Certified Systems Engineer (MCSE)</h3>
+                                    <span class="qualification__subtitle">Ottawa - Praxis Training Institute</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        1998
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--=============== QUALIFICATION 14 - MIS (1994-1997) ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Management Information Systems</h3>
+                                    <span class="qualification__subtitle">Ottawa - Collège La Cité</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        1994 - 1997
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--=============== QUALIFICATION 15 - High School (1992-1994) ===============-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- Remove line from last item -->
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">High School</h3>
+                                    <span class="qualification__subtitle">Ottawa - Andrée Laurendeau</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        1992 - 1994
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <!--=============== QUALIFICATION CONTENT 2 ===============-->
@@ -3625,5 +3046,18 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+        
+        <script>
+            // Loading indicator
+            window.addEventListener('load', function() {
+                const loader = document.getElementById('loading');
+                loader.style.display = 'none';
+            });
+            
+            // Add animation delay to nav items
+            document.querySelectorAll('.nav__item').forEach((item, index) => {
+                item.style.setProperty('--item-index', index);
+            });
+        </script>
     </body>
 </html>
